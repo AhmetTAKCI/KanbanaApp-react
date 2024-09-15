@@ -4,10 +4,21 @@ Bu proje, bir Kanban Board uygulaması geliştirmek için oluşturulmuştur. Uyg
 
     Proje Özellikleri
 Kanban Board: Görevler, Backlog, To Do, In Progress, ve Done gibi farklı aşamalarda görüntülenir.
+
+
 Görev Ekleme: Kullanıcılar yeni görevler ekleyebilir ve bu görevlerin başlık, açıklama, öncelik, teslim tarihi ve etiketlerini belirleyebilir.
+
+
 Renk Seçimi: Her görev için özel bir renk seçilebilir.
+
+
 Sürükle ve Bırak: Görevler, sürükleyip bırakarak bir aşamadan diğerine taşınabilir.
+
+
 Etiketler: Görevler için renkli etiketler eklenebilir.
+
+
+
       Kurulum
 
 
@@ -31,6 +42,8 @@ veya
 
 
 yarn install
+
+
 Geliştirme sunucusunu başlatın:
 
 
@@ -41,7 +54,14 @@ veya
 
 
 yarn start
+
+
+
       Kullanım
+      
+
+
+
 Görev Ekleme: Sağ üst köşedeki "Add Task" butonuna tıklayarak yeni görevler ekleyebilirsiniz. Görev başlığı, açıklaması, önceliği, teslim tarihi, ve etiketleri belirleyin. Renk seçici aracılığıyla görev rengi de belirlenebilir.
 
 

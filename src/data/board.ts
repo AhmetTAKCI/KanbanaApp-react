@@ -55,7 +55,7 @@ export const Board: Columns = {
 		],
 	},
 	
-	inProgress: {  // Burada "doing" yerine "inProgress" kullanılıyor
+	inProgress: {  
 		name: "In Progress",
 		items: [
 			{
