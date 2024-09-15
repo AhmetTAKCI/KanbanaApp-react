@@ -20,7 +20,7 @@ import { AddOutline } from "react-ionicons";
 import AddModal from "../../components/Modals/AddModal"; 
 
 
-import Task from "../../components/Task"; 
+ import Task from "../../components/Task/index"; 
 
 
 const Home = () => {
@@ -74,7 +74,7 @@ const Home = () => {
 									<div
 										ref={provided.innerRef}
 										{...provided.droppableProps}
-										className="flex flex-col md:w-[290px] w-[250px] gap-3 items-center py-5"
+										className="flex flex-col md:w-[290px] w-[250px] gap-3 items-center py-5 "
 									>
 										
 										<div className="flex items-center justify-center py-[10px] w-full bg-white rounded-lg shadow-sm text-[#555] font-medium text-[15px]">
@@ -93,10 +93,12 @@ const Home = () => {
 														{/* Her bir görev için Task bileşeni kullanılır. */}
 														<Task
 															provided={provided}
-															task={task}
-														/>
+															task={task} onColorChange={function (): void {
+																throw new Error("Function not implemented.");
+															} }														/>
+
 													</>
-												)}
+												)}   
 											</Draggable>
 										))}
 										{provided.placeholder} 

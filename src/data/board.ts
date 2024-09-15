@@ -16,6 +16,7 @@ export const Board: Columns = {
 				priority: "medium",
 				deadline: 50,
 				image: taskImage2,
+				color: "#ffffff",
 				alt: "task image",
 				tags: [
 					{ title: "Test", ...getRandomColors() },
@@ -27,6 +28,7 @@ export const Board: Columns = {
 				title: "Admin Panel Back-end",
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "low",
+				color: "#ffffff",
 				deadline: 50,
 				tags: [
 					{ title: "Test", ...getRandomColors() },
@@ -46,6 +48,7 @@ export const Board: Columns = {
 				priority: "medium",
 				deadline: 50,
 				image: taskImage3,
+				color: "#ffffff",
 				alt: "task image",
 				tags: [
 					{ title: "Test", ...getRandomColors() },
@@ -64,6 +67,7 @@ export const Board: Columns = {
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "low",
 				deadline: 50,
+				color: "#ffffff",
 				tags: [
 					{ title: "Test", ...getRandomColors() },
 					{ title: "Front", ...getRandomColors() },
@@ -75,6 +79,7 @@ export const Board: Columns = {
 				description: "Lorem ipsum dolor sit amet ..",
 				priority: "medium",
 				deadline: 50,
+				color: "#ffffff",
 				tags: [
 					{ title: "Test", ...getRandomColors() },
 					{ title: "Front", ...getRandomColors() },
@@ -93,6 +98,7 @@ export const Board: Columns = {
 				priority: "high",
 				deadline: 50,
 				alt: "task image",
+				color: "#ffffff",
 				tags: [
 					{ title: "Test", ...getRandomColors() },
 					{ title: "Front", ...getRandomColors() },

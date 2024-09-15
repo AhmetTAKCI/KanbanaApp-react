@@ -7,6 +7,7 @@ interface Tag {
 	title: string;
 	bg: string;
 	text: string;
+	
 }
 
 interface AddModalProps {
@@ -118,7 +119,7 @@ const AddModal = ({ isOpen, onClose, setOpen, handleAddTask }: AddModalProps) =>
 					className="w-full h-12 px-3 outline-none rounded-md bg-slate-100 border border-slate-300 text-sm"
 				/>
 				
-				{/* Renk seçici ekleme */}
+				
 				<label htmlFor="color" className="text-sm font-medium">Task Color:</label>
 				<input
 					type="color"

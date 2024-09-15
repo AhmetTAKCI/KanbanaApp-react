@@ -6,7 +6,7 @@ import { TaskT } from "../../types";
 interface TaskProps {
   task: TaskT;
   provided: any;
-  onColorChange: (id: string, color: string) => void; // Yeni prop: renk değişikliği işlevi
+  onColorChange: (id: string, color: string) => void; 
 }
 
 const Task = ({ task, provided, onColorChange }: TaskProps) => {
